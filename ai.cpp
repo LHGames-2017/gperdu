@@ -139,6 +139,7 @@ void AI::requestHandler(http_request request) {
             vector<vector<Tile>> deserialized_map = deserializeMap(customSerializedMap);
 
             // ###  ###
+            cout << "Hello, it's me" << endl;
 
             
         }
